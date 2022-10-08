@@ -61,7 +61,7 @@ ul> li > a {text-decoration: none;color:rgb(8, 8, 8);}
 .card-img-6 > img { width: 25%;}
 
 
-
+#work-img > img { width: 25%;}
 
 
 #card-title { font-weight: 800;text-align: center;padding-top:  4%;align-self: center;} 
@@ -77,6 +77,7 @@ ul> li > a {text-decoration: none;color:rgb(8, 8, 8);}
 
 .contact-us-detail {display: flex;width:100%}
 .contact-us-tag {font-size: 28px;font-weight: 400;text-align: center;padding: 3%;}
+
 .contact-side  { width: 35%;padding: 4%;} 
 
 #first-inputline { display: flex;justify-content: space-around;}
@@ -85,6 +86,13 @@ ul> li > a {text-decoration: none;color:rgb(8, 8, 8);}
 
 #sec-msg { padding-bottom:13%;}
 #btn-msg {width: 15%;padding: 6px;border-radius: 12px;}
+
+#contact-detail  { display: flex;flex-direction: column;padding: 3% 4%;}
+#contact-top-detail { font-weight: 900;font-size: 22px;}
+#contact-top2-detail {font-size:21px}
+#input-name { width: 45%;padding: 3px;} 
+#input-number { width: 45%;} 
+
 
 .footer {display: flex;flex-direction: column;text-align: center;background-color: rgb(199, 200, 201);padding: 2%;}
 #footer-detail { width: 30%;align-self: center;}
@@ -96,9 +104,15 @@ ul> li > a {text-decoration: none;color:rgb(8, 8, 8);}
 
 @media screen and (max-width:1920px)
 {
-    .header-bar
+    .header-bar{background-color: rgb(60, 37, 189);}
+    #logo-name {font-size: 26px;}
+    ul > li{font-size: 22px; }
+    #card-title {font-size: 26px;}
+    .contact-us-tag > span { font-size: 45px;}
+
+    .footer-logo-1 > ion-icon 
     {
-        background-color: rgb(60, 37, 189);
+        font-size: 30px;
     }
 }
 
@@ -112,6 +126,7 @@ ul> li > a {text-decoration: none;color:rgb(8, 8, 8);}
     {
        width: 22%;
     }
+    .logo { width: 50%;text-align: center;}
     #logo-name{
         font-size: 30px;
     }
@@ -122,6 +137,20 @@ ul> li > a {text-decoration: none;color:rgb(8, 8, 8);}
     {
         font-size: 27px;
     }
+    #our-works
+    {
+        padding: 2%;
+    }
+    #main-page-detail
+    { font-size: 21px;}
+    .about-image { align-self: center;} 
+    .contact-us-tag { padding: 1% 1%;font-size: 28px;}
+    .contact-side { padding: 1% 1%;}
+    #contact-detail { padding: 3% 4%;}
+    #btn-msg { width: 21%;padding: 13px;border-radius: 22px;}
+    #footer-detail {width: 62%;}
+    #work-img > img { padding: 1%;}
+
 }
 
 
@@ -131,6 +160,21 @@ ul> li > a {text-decoration: none;color:rgb(8, 8, 8);}
     {
         background-color: rgb(0, 255, 81);
     }
+    .about-us-content { padding: 3%;}
+    #about-us-detail { font-size: 16px;}
+    .services {padding: 0%;}
+    #services-content { padding: 2% 0%;}
+    .card-container { display: grid;grid-template-columns: 1fr 1fr;}
+    #work-img > img { width: 40%;}
+    #btn-msg { width: 25%;padding: 10px;}
+    #contact-detail { padding: 2% 1%;}
+    .contact-side {padding: 1% 1%;}
+    .form-side {padding-top: 5%;}
+    #btn-msg { width: 25%;}
+    .logos{ width: 25%;}
+    #footer-detail {width: 99%;}
+    .footer {padding: 1%;}
+
 }
 
 @media screen and (max-width:768px)
