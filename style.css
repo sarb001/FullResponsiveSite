@@ -46,17 +46,19 @@ ul> li > a
 #btn{ width: 8%;height: 6vh;border-radius: 35px;border:2px solid white;background-color: transparent;color: white;}
 #main-page-tagline { font-size: 45px;color: white;padding: 1%;}
 #main-page-detail { color: white;} 
-.about-us {  display: flex; }
+.about-us {  display: flex;  }
+.about-us-content { padding: 4%;}
+.about-image {padding: 4%;}
 
 
-.services { display: flex;flex-direction: column; padding: 3%;}
+.services { display: flex;flex-direction: column; padding: 3%;background-color: rgb(203, 203, 203);}
 #services-content { text-align: center;font-size: 35px;padding: 2%;}
 .card { width:100%;display: grid;grid-template-rows: 1fr 1fr 1fr; height: 40vh;background-color: wheat;} 
-.card-img > img { width: 30%;}
-.card-img {text-align: center;}
-#card-title { font-weight: 800;text-align: center;} 
-.card-cover-1 { padding: 4%;width:30% } 
-#card-content{ width: 95%;}
+.card-img > img { width: 20%;}
+.card-img {text-align: center;padding-top: 5%;}
+#card-title { font-weight: 800;text-align: center;padding-top:  4%;align-self: center;} 
+.card-cover-1 { padding: 4%;width:30% }
+#card-content{ width: 100%;text-align: center;}
 .card-cover-2 { padding: 4%;width:30%  } 
 .card-cover-3 { padding: 4%;width:30%  } 
 .card-cover-4 { padding: 4%;width:30%  } 
