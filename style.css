@@ -239,9 +239,31 @@ ul> li > a {text-decoration: none;color:rgb(8, 8, 8);}
     #footer-detail {font-size: 20px;}
     .logos { display: flex;width: 50%;padding: 1%;}
 
-}
+    #card-title {padding-top: 0%;}
+    #card-content{ width: 100%;text-align: center;font-size: 20px;}
 
-@media screen and (max-width:480px)
+    .card-img-2 {padding: 0%;}
+    .card-img-2 > img { width: 48%;padding-top: 5%;font-size: 23px;}
+
+    .card-img-5  > img { width: 12%;}
+    .card-img-5 {width: 95%;text-align: center;}
+    #card-content { font-size: 20px;}
+    .contact-us-detail {width: 100%;flex-direction: column;}
+    .contact-side {width: 100%;}
+    #contact-detail { padding: 2% 1%;}
+    #btn-msg {width: 20%;}
+
+    .footer {padding: 1%;}
+    #footer-heading {font-weight: 700;font-size: 25px;}
+    #footer-detail
+    {
+        font-size: 20px;
+    }
+    .logos { width: 23%;padding: 1% 1%;}
+
+
+}
+@media screen and (max-width:500px)
 {
     .header-bar
     {
