@@ -2,37 +2,21 @@
 {
     padding:0px; margin: 0px;
     box-sizing: border-box; width: 100%;
-    cursor: pointer;
-}
+    cursor: pointer;}
 
 img{width:100%;}
-.header-bar { width:100%;height:12vh;background-color: brown; display: flex;align-items: center;
+.header-bar { width:100%;height:12vh;background-color:rgb(191, 255, 0); display: flex;align-items: center;
+position: fixed;top:0;color:rgb(0, 0, 0);font-weight: 700;  }
 
-position: fixed;
-top:0;
-color:white;
-}
 .logo { text-align: center;}
 .nav-links > ul
-{
- list-style-type: none;
- display: flex;
- flex-direction: row;
-}
+{list-style-type: none;display: flex;flex-direction: row;}
 ul> li {text-align: center;align-self: center; }
-ul> li > a 
-{
-    text-decoration: none;
-    color:white;
-}
-#logo-name
-{
-    font-size: 25px;
-}
+ul> li > a {text-decoration: none;color:rgb(8, 8, 8);}
+#logo-name {font-size: 25px;}
 
 .main-page
-{
-    width: 100%;
+{   width: 100%;
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url('/imagess/about.jpeg');
     background-position: center;
     background-size: cover;
@@ -51,21 +35,41 @@ ul> li > a
 .about-image {padding: 4%;}
 
 
+#learn-btn-more { padding: 1%;}
+#about-us-content {text-align: center;font-size: 35px;padding-bottom: 7%;}
+
 .services { display: flex;flex-direction: column; padding: 3%;background-color: rgb(203, 203, 203);}
 #services-content { text-align: center;font-size: 35px;padding: 2%;}
 .card { width:100%;display: grid;grid-template-rows: 1fr 1fr 1fr; height: 40vh;background-color: wheat;} 
-.card-img > img { width: 20%;}
-.card-img {text-align: center;padding-top: 5%;}
+
+.card-img-1 {text-align: center;padding-top: 5%;}
+.card-img-1 > img { width: 35%;}
+
+.card-img-2 {text-align: center;padding-top: 5%;}
+.card-img-2 > img { width: 65%;}
+
+.card-img-3 {text-align: center;padding-top: 5%;}
+.card-img-3 > img { width: 28%;}
+
+.card-img-4 {text-align: center;padding-top: 5%;}
+.card-img-4 > img { width: 28%;}
+
+.card-img-5 {text-align: center;padding-top: 5%;}
+.card-img-5 > img { width: 22%;}
+
+.card-img-6 {text-align: center;padding-top: 5%;}
+.card-img-6 > img { width: 25%;}
+
+
+
+
+
 #card-title { font-weight: 800;text-align: center;padding-top:  4%;align-self: center;} 
-.card-cover-1 { padding: 4%;width:30% }
+.card-cover { padding: 4%;width:30% }
 #card-content{ width: 100%;text-align: center;}
-.card-cover-2 { padding: 4%;width:30%  } 
-.card-cover-3 { padding: 4%;width:30%  } 
-.card-cover-4 { padding: 4%;width:30%  } 
-.card-cover-5 { padding: 4%;width:30%  } 
-.card-cover-6 { padding: 4%;width:30%  } 
 .card-container { flex-wrap: wrap;}
 
+#our-works {font-size: 35px;text-align: center;width: 100%;}
 .our-works {background-color: cadetblue;padding-bottom: 3%;}
 .works-images {padding: 3%;width: 100%; }
 #work-img{ padding: 3%;}
@@ -85,3 +89,76 @@ ul> li > a
 .footer {display: flex;flex-direction: column;text-align: center;background-color: rgb(199, 200, 201);padding: 2%;}
 #footer-detail { width: 30%;align-self: center;}
 #footer-heading { font-weight: 700;font-size: 25px;}
+
+
+
+/* Responsiveness  */
+
+@media screen and (max-width:1920px)
+{
+    .header-bar
+    {
+        background-color: rgb(60, 37, 189);
+    }
+    /* .card-cover-1
+    {
+        width:33%;
+    }
+    .card 
+    {
+        width: 100%;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .card-img > img 
+    {
+         width:50%;
+    }
+    #card-title
+    {
+        font-weight: 800;
+        padding-top: 4%;
+        font-size: x-large;
+    }
+    #card-content
+    {
+        width: 100%;
+        font-size: inherit;
+    } */
+
+}
+
+@media screen and (max-width:1200px)
+{
+    .header-bar
+    {
+        background-color: rgb(255, 0, 64);
+    }
+}
+
+
+@media screen and (max-width:1024px)
+{
+    .header-bar
+    {
+        background-color: rgb(0, 255, 81);
+    }
+}
+
+@media screen and (max-width:768px)
+{
+    .header-bar
+    {
+        background-color: rgb(0, 234, 255);
+    }
+}
+
+@media screen and (max-width:480px)
+{
+    .header-bar
+    {
+        background-color: rgb(153, 0, 255);
+    }
+}
+
+
