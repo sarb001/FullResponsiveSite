@@ -72,7 +72,7 @@ ul> li > a
 
 
 .contact-us-detail {display: flex;width:100%}
-.contact-us-tag {font-size: 28px;font-weight: 400;text-align: center;}
+.contact-us-tag {font-size: 28px;font-weight: 400;text-align: center;padding: 3%;}
 .contact-side  { width: 35%;padding: 4%;} 
 
 #first-inputline { display: flex;justify-content: space-around;}
@@ -81,3 +81,7 @@ ul> li > a
 
 #sec-msg { padding-bottom:13%;}
 #btn-msg {width: 15%;padding: 6px;border-radius: 12px;}
+
+.footer {display: flex;flex-direction: column;text-align: center;background-color: rgb(199, 200, 201);padding: 2%;}
+#footer-detail { width: 30%;align-self: center;}
+#footer-heading { font-weight: 700;font-size: 25px;}
