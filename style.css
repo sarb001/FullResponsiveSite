@@ -65,3 +65,19 @@ ul> li > a
 .card-cover-5 { padding: 4%;width:30%  } 
 .card-cover-6 { padding: 4%;width:30%  } 
 .card-container { flex-wrap: wrap;}
+
+.our-works {background-color: cadetblue;padding-bottom: 3%;}
+.works-images {padding: 3%;width: 100%; }
+#work-img{ padding: 3%;}
+
+
+.contact-us-detail {display: flex;width:100%}
+.contact-us-tag {font-size: 28px;font-weight: 400;text-align: center;}
+.contact-side  { width: 35%;padding: 4%;} 
+
+#first-inputline { display: flex;justify-content: space-around;}
+.form-side {padding: 3%;}
+#second-inputline { display: flex;flex-direction: column;padding: 2%;}
+
+#sec-msg { padding-bottom:13%;}
+#btn-msg {width: 15%;padding: 6px;border-radius: 12px;}
