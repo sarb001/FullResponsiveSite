@@ -199,15 +199,46 @@ ul> li > a {text-decoration: none;color:rgb(8, 8, 8);}
         justify-content: space-between;
     }
     .logo {width:35%;text-align: center;}
-
     .ham-icon{ width: 10%;padding: 12px 3px;font-size: 35px;display: block;}
-
     .nav-links { position: fixed;top: 103px;left:0}
-
     .nav-links > ul {display: none;}
     .nav-links > ul.active {display: block;background-color: brown;}
-
     .nav-links > ul > li {font-size: 37px;}
+
+
+    #main-page-detail { font-size: 21px;}
+    .about-us { display: flex;flex-direction: column;}
+    .about-us-content { padding: 3%;}
+    #about-us-content { font-size: 35px;padding-bottom: 2%;}
+    #about-us-detail { font-size: 27px;}
+    .card-container {display: grid;grid-template-columns: 1fr;}
+    .card-cover {padding: 4%;width:100%}
+
+    .card-img-1 { padding-top: 1%;text-align: center;}
+    .card-img-3 { padding-top: 5%;}
+    .card-img-3 > img { width: 20%;}
+
+    .our-works { padding-bottom: 3%;background-color: cadetblue;}
+    .works-images { width: 100%;padding: 3%;}
+    #work-img {padding: 1%}
+    #work-img  > img { padding: 1% ;width: 95%;}
+
+    .contact-us-tag { padding: 1% 1%;font-size: 28px;}
+    .contact-us-detail { width: 100%;flex-direction: column;}
+    .contact-side {width:100%}
+    #contact-detail { padding: 2% 1%;}
+    #contact-top-detail  {font-size: 900px;font-size: 30px;}
+
+    .form-side{padding-top: 5%;}
+
+    #first-inputline { width: 100%;padding: 1%;}
+    #second-inputline { display: flex;flex-direction: column;padding: 2%;}
+
+    #btn-msg {width: 25%;}
+    .footer {padding:1%}
+    #footer-detail {font-size: 20px;}
+    .logos { display: flex;width: 50%;padding: 1%;}
+
 }
 
 @media screen and (max-width:480px)
